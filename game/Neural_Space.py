@@ -42,7 +42,7 @@ class GameState:
 	self.gameSpeed     = -5
 	self.playerUp	   = False
 	self.playerDown    =False
-	self.playerSpeed   = 5
+	self.playerSpeed   = 8
 	self.backSpeed = -np.ceil(self.gameSpeed/10)
 
     def frame_step(self, input_actions):
