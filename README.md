@@ -1,4 +1,4 @@
-To run: python Neural_Space.py
+To run: python Neural_Space_Net.py
 
 Dipendenze:
 Python 2.7
