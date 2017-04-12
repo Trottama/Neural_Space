@@ -22,9 +22,6 @@ IMAGES, HITMASKS = Neural_Space_utils.load()
 PLAYER_WIDTH = IMAGES['player'][0].get_width()
 PLAYER_HEIGHT = IMAGES['player'][0].get_height()
 
-PLAYER_INDEX_GEN = cycle([0, 1, 2, 1])
-
-
 class GameState:
     def __init__(self):
         self.score = 0
@@ -45,7 +42,7 @@ class GameState:
 	self.gameSpeed     = -5
 	self.playerUp	   = False
 	self.playerDown    =False
-	self.playerSpeed   = 9
+	self.playerSpeed   = 5
 	self.backSpeed = -np.ceil(self.gameSpeed/10)
 
     def frame_step(self, input_actions):
